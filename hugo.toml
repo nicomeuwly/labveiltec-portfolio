@@ -2,8 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'fr-ch'
 title = 'Nicolas Meuwly'
 theme = "paper"
-
-disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+paginate = 3
 
 [params]
   # color style
@@ -14,9 +13,9 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   linkedin = 'nicolas-meuwly'             # linkedin.com/in/YOUR_LINKEDIN_ID
 
   # home page profile
-  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  avatar = 'https://media.licdn.com/dms/image/D4E03AQEBkxeD2YXZmA/profile-displayphoto-shrink_800_800/0/1696271633679?e=1711584000&v=beta&t=F0fy8HxxC_xL7PcQHS772M7TpwxFe3DR2y9YwGw1KYY'                 # gravatar email or image url
   name = 'Nicolas Meuwly'
-  bio = 'YOUR_BIO'
+  bio = 'Bienvenue sur mon portfolio dédié à ma veille technologique !'
 
 
   # misc
@@ -27,12 +26,15 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   math = true                               # enable KaTeX math typesetting globally
   graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
 
-  # giscus
-[params.giscus]
-  repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
-  repoId = 'YOUR_GISCUS_REPO_ID'
-  category = 'YOUR__GISCUS_CATEGORY'
-  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
-  mapping = 'pathname'
-  theme = 'light'
-  lang = 'zh-CN'
+  [menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "A propos"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/post/"
+    weight = 10
