@@ -16,7 +16,7 @@ Le développement web est bien plus qu'une simple suite de lignes de code ; c'es
 
 Mon engagement dans le développement web trouve son essence dans le concept japonais d'Ikigai, la convergence de ma passion, ma vocation, ma mission et ma profession. Je crois fermement que créer des solutions web puissantes et intuitives est ma mission, une mission qui donne un sens à ma passion pour la programmation et qui, ultimement, contribue positivement au monde qui nous entoure.
 
-![Ikigai](/img/Ikigai.png)
+![Ikigai](/Ikigai.png)
 
 ### Taxonomies : Découvrir l'ordre dans le code
 
